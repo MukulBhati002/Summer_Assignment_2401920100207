@@ -19,5 +19,9 @@ public:
 };
 
 int main(){
-
+    int a = -33333;
+    string s = to_string(a);
+    int ans = stoi(s);
+    cout<<ans<<endl;
+   
 }
